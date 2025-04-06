@@ -1,0 +1,20 @@
+[
+  {
+    "directory": "/Volumes/Codes/meson_and_ninja_tutorial/build",
+    "command": "cc -Isrc/max/libmyownmax.dylib.p -Isrc/max -I../src/max -Iinclude -I../include -fdiagnostics-color=always -Wall -Winvalid-pch -std=c11 -O0 -g -MD -MQ src/max/libmyownmax.dylib.p/max.c.o -MF src/max/libmyownmax.dylib.p/max.c.o.d -o src/max/libmyownmax.dylib.p/max.c.o -c ../src/max/max.c",
+    "file": "../src/max/max.c",
+    "output": "src/max/libmyownmax.dylib.p/max.c.o"
+  },
+  {
+    "directory": "/Volumes/Codes/meson_and_ninja_tutorial/build",
+    "command": "cc -Isubprojects/libmin/liblibmin.a.p -Isubprojects/libmin -I../subprojects/libmin -Isubprojects/libmin/include -I../subprojects/libmin/include -fdiagnostics-color=always -Wall -Winvalid-pch -std=c11 -O0 -g -MD -MQ subprojects/libmin/liblibmin.a.p/min.c.o -MF subprojects/libmin/liblibmin.a.p/min.c.o.d -o subprojects/libmin/liblibmin.a.p/min.c.o -c ../subprojects/libmin/min.c",
+    "file": "../subprojects/libmin/min.c",
+    "output": "subprojects/libmin/liblibmin.a.p/min.c.o"
+  },
+  {
+    "directory": "/Volumes/Codes/meson_and_ninja_tutorial/build",
+    "command": "cc -Itutorial.p -I. -I.. -Iinclude -I../include -Isubprojects/libmin/include -I../subprojects/libmin/include -fdiagnostics-color=always -Wall -Winvalid-pch -std=c11 -O0 -g -MD -MQ tutorial.p/src_main.c.o -MF tutorial.p/src_main.c.o.d -o tutorial.p/src_main.c.o -c ../src/main.c",
+    "file": "../src/main.c",
+    "output": "tutorial.p/src_main.c.o"
+  }
+]
