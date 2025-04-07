@@ -19,6 +19,6 @@ executable(
     'tutorial',
     sources,
     include_directories: incs,
-    dependencies: [libmyownmax_dep, libmin_dep],
+    dependencies: [libmax_dep, libmin_dep],
     install: true,
 )
